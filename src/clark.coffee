@@ -1,4 +1,3 @@
-_     = require('underscore')._
 ticks = ['▁','▂','▃','▄','▅','▆','▇','█']
 root = exports ? this
 
@@ -9,9 +8,7 @@ root.clark =
     chunk =  (max - min) / (ticks.length - 1)
     graph = ""
 
-    _.each data, (d) ->
+    return for d in data
       i = ((d - min) / chunk) >> 0
       i = 1 if i < 1
-      graph +=  ticks[i - 1]
-
-    return graph
+      graph +=  ticks[i - 1] 
