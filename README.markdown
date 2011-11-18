@@ -6,6 +6,11 @@ shell script. See spark documentation for details how to use.
 
 Requires underscore.
 
+Check out the:
+
+* [Source code on Github](https://github.com/ajacksified/Clark/)
+* [Documentation](https://ajacksified.github.com/Clark/)
+
 Installation
 ------------
 
