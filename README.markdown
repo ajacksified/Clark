@@ -1,12 +1,12 @@
 Clark
 =====
 
+Current version: 0.0.2
+
 ![Clark](http://3.bp.blogspot.com/_-gVIsw8A1eI/TQoX8ONKImI/AAAAAAAAAJY/1HLqqXStGvY/s1600/clark-griswold.jpg)
 
 A coffeescript, npm-ready version of the [spark](https://github.com/holman/spark)
 shell script. See spark documentation for details how to use.
-
-Requires underscore.
 
 Check out the:
 
