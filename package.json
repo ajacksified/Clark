@@ -1,0 +1,34 @@
+{
+  "name":         "clark",
+
+  "description":  "ASCII sparklines in coffeescript. Based on 'spark' for shell.",
+
+  "keywords":     ["ascii", "graph", "spark", "sparklines"],
+
+  "author":       "Jack Lawson",
+
+  "version":      "0.0.1",
+
+  "dependencies": { 
+  },
+
+  "licenses": [{
+    "type" :      "MIT",
+    "url" :       "http://opensource.org/licenses/mit-license.php"
+  }],
+
+  "engines": {
+    "node" :      ">=0.2.0"
+  },
+
+  "directories": {
+    "lib" :       "./lib"
+  },
+
+  "main" :        "./lib/clark",
+
+  "bin": {
+    "paige" :     "./bin/clark"
+  }
+}
+
