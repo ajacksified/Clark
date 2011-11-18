@@ -1,7 +1,7 @@
 Clark
 =====
 
-Current version: 0.0.2
+Current version: 0.0.3
 
 ![Clark](http://3.bp.blogspot.com/_-gVIsw8A1eI/TQoX8ONKImI/AAAAAAAAAJY/1HLqqXStGvY/s1600/clark-griswold.jpg)
 
