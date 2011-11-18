@@ -18,6 +18,9 @@
   "directories": {
     "lib" :       "./lib"
   },
+  "bin" : {
+    "clark": "./lib/clark.bin.js"
+  },
   "main" :        "./lib/clark"
 }
 
