@@ -25,4 +25,10 @@ Usage
 
 output: ▁▁▃▅▇
 
+    echo 1 2 3 4 5 | xargs clark
+
+output: ▁▁▃▅▇
+
+(note: to pipe, you need xargs.)
+
 Checkout the spark page for more usages.
