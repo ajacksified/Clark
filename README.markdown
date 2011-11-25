@@ -23,11 +23,11 @@ Usage
 
     clark 1 2 3 4 5
 
-output: ▁▁▃▅▇
+output: ▁▂▄▆█
 
     echo 1 2 3 4 5 | xargs clark
 
-output: ▁▁▃▅▇
+output: ▁▂▄▆█
 
 (note: to pipe, you need xargs.)
 
