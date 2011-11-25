@@ -1,15 +1,13 @@
-_ = require('underscore')._
-
+#!/usr/bin/env coffee
 ticks = ['▁','▂','▃','▄','▅','▆','▇','█']
-root = exports ? this
 
-root.clark = (data) ->
-  min = _.min data
-  max = _.max data
-  chunk =  (max - min) / (ticks.length - 1)
-  graph = ""
+exports.clark = (data) ->
+  m = Math.min data...
+  n = (Math.max(data...)-m)/(ticks.length - 1)
+  (ticks[(t-m)/n >> 0] for t in data).join('')
 
-  return (for d in data
-    i = ((d - min) / chunk) >> 0
-    i = 1 if i < 1
-    ticks[i - 1]).join('')
+if require.main == module
+  data = process.argv
+    .map((a) -> parseInt(a, 10))
+    .filter((v) -> v==v)
+  process.stdout.write("#{exports.clark(data)}\n")

@@ -1,13 +1,11 @@
 {
   "name":         "clark",
-  "version":      "0.0.3",
+  "version":      "0.0.4",
   "description":  "ASCII sparklines in coffeescript. Based on 'spark' for shell.",
   "keywords":     ["ascii", "graph", "spark", "sparklines"],
   "author":       "Jack Lawson <jlawson@olivinelabs.com>",
   "respository":  {"type": "git", "url": "git://github.com/ajacksified/Clark.git"},
-  "dependencies": {
-    "underscore" : "1.x.x" 
-  },
+  "dependencies": [],
   "licenses": [{
     "type" :      "MIT",
     "url" :       "http://opensource.org/licenses/mit-license.php"
