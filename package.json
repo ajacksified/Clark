@@ -1,6 +1,6 @@
 {
   "name":         "clark",
-  "version":      "0.0.4",
+  "version":      "0.0.5",
   "description":  "ASCII sparklines in coffeescript. Based on 'spark' for shell.",
   "keywords":     ["ascii", "graph", "spark", "sparklines"],
   "author":       "Jack Lawson <jlawson@olivinelabs.com>",
@@ -21,4 +21,3 @@
   },
   "main" :        "./lib/clark"
 }
-

@@ -1,9 +1,7 @@
 Clark
 =====
 
-Current version: 0.0.4
-
-![Clark](http://3.bp.blogspot.com/_-gVIsw8A1eI/TQoX8ONKImI/AAAAAAAAAJY/1HLqqXStGvY/s1600/clark-griswold.jpg)
+Current version: 0.0.5
 
 A coffeescript, npm-ready version of the [spark](https://github.com/holman/spark)
 shell script. See spark documentation for details how to use.
@@ -13,10 +11,13 @@ Check out the:
 * [Source code on Github](https://github.com/ajacksified/Clark/)
 * [Documentation](https://ajacksified.github.com/Clark/)
 
+![Clark](http://3.bp.blogspot.com/_-gVIsw8A1eI/TQoX8ONKImI/AAAAAAAAAJY/1HLqqXStGvY/s1600/clark-griswold.jpg)
+
 Installation
 ------------
 
-npm install clark -g
+Install node and npm, then `npm install clark -g`
+
 
 Usage
 -----
@@ -29,6 +30,6 @@ output: ▁▂▄▆█
 
 output: ▁▂▄▆█
 
-(note: to pipe, you need xargs.)
+Check out [the spark page](https://github.com/holman/spark/wiki/Wicked-Cool-Usage) for some neat things to do.
 
-Checkout the spark page for more usages.
+Also available as a [hubot script](https://github.com/github/hubot-scripts).
