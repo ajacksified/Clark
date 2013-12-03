@@ -1,20 +1,30 @@
 {
-  "name":         "clark",
-  "version":      "0.0.6",
-  "description":  "ASCII sparklines in coffeescript. Based on 'spark' for shell.",
-  "keywords":     ["ascii", "graph", "spark", "sparklines"],
-  "author":       "Jack Lawson <jlawson@olivinelabs.com>",
-  "repository":  {"type": "git", "url": "git://github.com/ajacksified/Clark.git"},
+  "name": "clark",
+  "version": "0.0.6",
+  "description": "ASCII sparklines in coffeescript. Based on 'spark' for shell.",
+  "keywords": [
+    "ascii",
+    "graph",
+    "spark",
+    "sparklines"
+  ],
+  "author": "Jack Lawson <jlawson@olivinelabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajacksified/Clark.git"
+  },
   "dependencies": [],
-  "licenses": [{
-    "type" :      "MIT",
-    "url" :       "http://opensource.org/licenses/mit-license.php"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
   "engines": {
-    "node" :      ">=0.2.0"
+    "node": ">=0.2.0"
   },
   "directories": {
-    "src" :       "./src"
+    "src": "./src"
   },
   "bin": {
     "clark": "./bin/clark.js"
@@ -24,7 +34,9 @@
   },
   "devDependencies": {
     "mocha": "1.8.2",
-    "chai": "1.5.0"
+    "chai": "1.5.0",
+    "grunt": "~0.4.2",
+    "grunt-release": "~0.6.0"
   },
-  "main":  "./src/clark"
+  "main": "./src/clark"
 }
