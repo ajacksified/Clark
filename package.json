@@ -11,6 +11,7 @@
   "author": "Jack Lawson <jlawson@olivinelabs.com>",
   "repository": {
     "type": "git",
+{
     "url": "git://github.com/ajacksified/Clark.git"
   },
   "dependencies": [],
